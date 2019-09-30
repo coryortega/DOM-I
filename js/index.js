@@ -65,7 +65,7 @@ const One = document.createElement("a");
 One.textContent = "I am item 1";
 const secondaryContent = document.querySelector(['nav']);
 
-secondaryContent.append(One);
+secondaryContent.prepend(One);
 
 const Two = document.createElement("a");
 Two.textContent = "I am item 2";
